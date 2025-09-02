@@ -31,16 +31,15 @@ You can roleplay with the crew aboard the *Thousand Sunny* and have them respond
 
 ## Setup
 - Clone this repo
-    ```bash
+    ```
     git clone https://github.com/yash722/ThousandConvosWithTheCrew.git
     cd ThousandConvosWithTheCrew
+    ```
 - Create a virtual environment with the requirements
 - Get your environment variables
     - OPENAI_API_KEY=your_openai_api_key_here
 - Prepare Straw Hat personalities JSON (Given here but you can use the script to generate real time personas)
 - Start the crew chat
-    ```bash
+    ```
     python thousand_sunny.py
-
-
-
+    ```
