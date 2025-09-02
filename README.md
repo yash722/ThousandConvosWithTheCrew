@@ -5,21 +5,21 @@ You can roleplay with the crew aboard the *Thousand Sunny* and have them respond
 
 ---
 
-## 🚀 Features
-- ✅ Multi-agent conversation: each Straw Hat acts as an autonomous agent.  
-- ✅ Personality-driven responses: loaded from `strawhat_personalities.json`.  
-- ✅ Group Chat Manager orchestrates the flow of dialogue.  
-- ✅ User can join the crew as a participant ("User Agent").  
-- ✅ Supports continuous chat loops (or one-off prompts).  
-- ✅ Extendable to Discord for roleplay in a channel.  
+## Features
+- Multi-agent conversation: each Straw Hat acts as an autonomous agent.  
+- Personality-driven responses: loaded from `strawhat_personalities.json`.  
+- Group Chat Manager orchestrates the flow of dialogue.  
+- User can join the crew as a participant ("User Agent").  
+- Supports continuous chat loops (or one-off prompts).  
 
 ---
 
 ## 📦 Requirements
 - Python **3.10+**
 - Install dependencies:
-  ```bash
+  ```
   pip install -r requirements.txt
+  ```
 
 - requirements
     - autogen-core
@@ -37,7 +37,7 @@ You can roleplay with the crew aboard the *Thousand Sunny* and have them respond
     ```
 - Create a virtual environment with the requirements
 - Get your environment variables
-    - OPENAI_API_KEY=your_openai_api_key_here
+    - OPENAI_API_KEY=<your_openai_api_key_here>
 - Prepare Straw Hat personalities JSON (Given here but you can use the script to generate real time personas)
 - Start the crew chat
     ```

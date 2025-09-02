@@ -1,7 +1,6 @@
-playwright
+autogen-core
+autogen-ext
 openai
-typing
-autogen
-autogen_ext
-pydantic
 rich
+pydantic
+python-dotenv
