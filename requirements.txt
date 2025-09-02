@@ -1,0 +1,7 @@
+playwright
+openai
+typing
+autogen
+autogen_ext
+pydantic
+rich
